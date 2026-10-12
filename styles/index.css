@@ -1,16 +1,22 @@
 
 :root {
-  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #311042 100%);
-  --card-bg: rgba(255, 255, 255, 0.05);
-  --card-border: rgba(255, 255, 255, 0.12);
-  --card-hover-border: rgba(168, 85, 247, 0.6);
-  --accent-purple: #c084fc;
-  --accent-pink: #f472b6;
-  --text-main: #f8fafc;
-  --text-muted: #94a3b8;
-  --timeline-line: rgba(192, 132, 252, 0.3);
-}
+  
+  --bg-gradient: linear-gradient(135deg, #0b0f19 0%, #17153b 50%, #2a0845 100%);
+  --card-bg: rgba(255, 255, 255, 0.04);
+  --card-border: rgba(224, 215, 255, 0.12);
+  --card-hover-border: rgba(216, 180, 254, 0.6);
 
+  
+  --accent-purple: #d8b4fe;      
+  --accent-pink: #f472b6;        
+  
+  
+  --text-main: #f5f3ff;          
+  --text-muted: #cbd5e1;         
+  --text-subtle: #a78bfa;        
+  
+  --timeline-line: rgba(216, 180, 254, 0.25);
+}
 * {
   margin: 0;
   padding: 0;
