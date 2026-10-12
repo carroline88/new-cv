@@ -374,3 +374,45 @@ p {
     padding: 26px 20px;
   }
 }
+
+/* ANPASSNING FÖR PDF & UTSKRIFT */
+@media print {
+  body {
+    background: #090d16 !important;
+    color: #cbd5e1 !important;
+    animation: none !important;
+    padding: 20px !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Dölj de flytande orbsen som krockar med PDF */
+  .background-glow,
+  .background-glow-2 {
+    display: none !important;
+  }
+
+  /* Fasta bakgrunder på korten istället för genomskinligt glas */
+  .hero,
+  .card {
+    background: #14122b !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: 1px solid #4a3472 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Säkra att profilbilden och färgerna syns */
+  .profile-img {
+    box-shadow: none !important;
+  }
+
+  .timeline-item,
+  .grid-item {
+    background: #1c183a !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}
