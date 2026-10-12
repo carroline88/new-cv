@@ -153,7 +153,7 @@ body {
 
 .card h2 {
   font-size: 1.5rem;
-  color: #fff;
+  color: #faf5ff; /* Mjuk pärlskimmer */
   margin-bottom: 22px;
   position: relative;
   display: inline-block;
@@ -215,10 +215,9 @@ body {
   gap: 8px;
 }
 
-.timeline-header h3 {
-  font-size: 1.15rem;
-  color: #fff;
-  font-weight: 600;
+.timeline-header h3,
+.grid-item h3 {
+  color: #f3e8ff; /* Ljus lavendel-vit */
 }
 
 .date {
